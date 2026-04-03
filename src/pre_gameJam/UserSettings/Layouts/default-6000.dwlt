@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 94
+  controlID: 37
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 95
+  controlID: 38
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 96
+  controlID: 39
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Texts
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Texts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity_engine\unity_projects\pre-gamejam-2026\src\pre_gameJam
   m_LockTracker:
@@ -613,13 +613,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 47926
+    - m_Data: 49134
     m_LastClickedID:
-      m_Data: 47926
+      m_Data: 49134
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 47942
-    - m_Data: 49052
+    - m_Data: 49134
+    - m_Data: 49218
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -654,7 +654,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49052
+    - m_Data: 49134
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -681,8 +681,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: -1338
+    m_LastClickedInstanceID: -1338
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -806,12 +807,13 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: -1338
       m_LastClickedID:
-        m_Data: 0
+        m_Data: -1338
       m_ExpandedIDs:
-      - m_Data: -2954
-      - m_Data: -1954
+      - m_Data: -1336
+      - m_Data: 48846
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1348,9 +1350,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 549.06476, y: 315.45883, z: -2.6411676}
+    m_Target: {x: 642.6685, y: 152.05933, z: -4.781676}
     speed: 2
-    m_Value: {x: 547.8118, y: 320.76886, z: -2.8141904}
+    m_Value: {x: 549.06476, y: 315.45883, z: -2.6411676}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1400,9 +1402,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 367.19434
+    m_Target: 581.246
     speed: 2
-    m_Value: 384.49667
+    m_Value: 367.19434
   m_Ortho:
     m_Target: 1
     speed: 2
