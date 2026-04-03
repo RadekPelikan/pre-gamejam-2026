@@ -33,7 +33,7 @@
 - `git add <cesta_změněného_souboru>` - přidání změněného souboru do **staging area**
 - `git restore <sourbor>` - zahodí tvoje poslední úpravy a vrátí soubor do stavu, v jakém byl při posledním commitu
 > [!CAUTION]
-> Samotný `git restore <soubor>` <span style="color:red">smaže</span> tvoje úpravy v souboru a vrátí stav z historie
+> Samotný `git restore <soubor>` smaže tvoje úpravy v souboru a vrátí stav z historie
 >
 > Pomocí `git restore --staged <soubor>` zachová tvůj kód, ale vyndá ho ze **staging area**
 - `git commit -m "<popisek>"` - uložení změn do lokálního repositáře
@@ -45,10 +45,10 @@
 - `git commit -m "<popisek>"` - lokální repositář
 - `git push origin HEAD:main` - vzdálený repositář
 
-## Rozdíl mezi <span style="color:red">.</span> a <span style="color:cyan">*</span>
-- <span style="color:red">tečka</span> - aktuální adresář a všechno v jeho podadresářích
+## Rozdíl mezi . a *
+- **tečka** - aktuální adresář a všechno v jeho podadresářích
 > [!IMPORTANT]
 > tečka <ins>**vidí**</ins> i skryté soubory (např. soubor `.env`)
-- <span style="color:cyan">hvězdička</span> -  všechny **viditelné** soubory
+- **hvězdička** -  všechny **viditelné** soubory
 >[!IMPORTANT]
 > hvězdička <ins>**nevidí**</ins> skryté soubory (např. soubor `.env`)
