@@ -29,6 +29,7 @@
 ### Lobby
 - **Host Control:** The lobby creator can manually change the team size before a map is selected
 - **Voting System:** Players can select maps in the lobby using a voting system similar to **Ultimate Chicken Horse**
+![Hunter Games Lobby](../assets/ideas/Hunter_Games_lobby_1.png)
   
 ### Maps
 - **Spawn Points:** Maps have predetermined spawn points that adapt to the number of teams (1v1, 2v2, or 1v1v1)
@@ -43,6 +44,9 @@
     - **1v1v1:** Both losing players place 1 obstacle each
 - **Winning Condition:** The match is played as a best-of-13 (or what we find the most comfortable to play with)
 - *<ins>Additional</ins>* - **Victory Screen:** Features an interactive winning screen similar to **Party Animals**
+![Hunter Games Match](../assets/ideas/Hunter_Games_round_4.png)
+![Hunter Games Building](../assets/ideas/Hunter_Games_obstacles_2.png)
+![Hunter Games Victory Screen](../assets/ideas/Hunter_Games_victory_screen_3.png)
 
 ### Power-ups
 - **Spawning:** Power-ups drop from the sky or spawn randomly on the ground
