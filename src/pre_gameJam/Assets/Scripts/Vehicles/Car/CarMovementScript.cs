@@ -1,13 +1,14 @@
 using UnityEngine;
+using System.Linq;
 
 public class CarMovementScript : MonoBehaviour
 {
-    public int _carMovementSpeedX;
-    public int _carMovementSpeedY;
-    public int _carMovementSpeedZ;
+    [SerializeField]private int _carMovementSpeedX;
+    //public int _carMovementSpeedY;
+    [SerializeField]private int _carMovementSpeedZ;
+    [SerializeField]private float _carAverageSpeed;
+    [SerializeField]private float _carRotationSpeed;
     private Vector3 _carMovement;
-    private float _beforePositionX;
-    private bool isInicialized = false;
     void Start()
     {
     }
@@ -15,31 +16,22 @@ public class CarMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _carMovement = new Vector3(_carMovementSpeedX, _carMovementSpeedY, _carMovementSpeedZ);
+        _carMovement = new Vector3(_carMovementSpeedX, 0, _carMovementSpeedZ);
         transform.Translate(_carMovement * Time.deltaTime);
+        _carAverageSpeed = (_carMovementSpeedX + 0 + _carMovementSpeedZ) / 3f;
 
-        //ApplyRotation();
+         ApplyRotation();
     }
 
-    /*public void ApplyRotation()
+    public void ApplyRotation()
     {
-        float _currentPositionX = transform.position.x;
-
-        if (!isInicialized)
-        {
-            _beforePositionX = _currentPositionX;
-            isInicialized = true;
-        }
-
         // Auto se pohybuje doprava
-        if (_currentPositionX > _beforePositionX)
+        if (_carMovementSpeedX > 0)
         {
-            transform.Rotate(0, 0.2f, 0);
-        } else if (_currentPositionX < _beforePositionX) //Auto se pohybuje doleva
+            transform.Rotate(0, _carAverageSpeed / _carRotationSpeed, 0);
+        } else if (_carMovementSpeedX < 0) //Auto se pohybuje doleva
         {
-            transform.Rotate(0, -0.2f, 0);
+            transform.Rotate(0, -_carAverageSpeed / _carRotationSpeed, 0);
         }
-
-        _beforePositionX = _currentPositionX;
-    }*/
+    }
 }
